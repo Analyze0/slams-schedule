@@ -1,0 +1,21 @@
+a{
+  background:white;
+  width:80px !important;
+  border-radius:3px;
+  padding-left:30px;
+  padding-right:30px;
+  margin-bottom:30px;
+  text-decoration: none;
+  color:#454545;
+  transition:1s;
+}
+a:hover{
+  background:black;
+  color:white;
+} 
+
+
+html{
+  height:auto;
+  margin-bottom: 10%;
+}
