@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://sleek-css.analyze185.repl.co/sleek.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>home</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body> 
+  <h1>Normal Days:</h1>
+  <br>
+  <h2 id="day"></h2>
+  <br>
+  <script>
+  var d = new Date(); 
+  var minutes = d.getDay();  
+
+  var day;
+  if (minutes = 5) {
+    day = "Its Friday";
+  }
+  if (minutes = 3) {
+    day = "Its Wenesday!";
+  }  
+  if (minutes = 4) {
+    day = "Its Thursday"
+  }
+  if (minutes = 1) {
+    day = "Its Monday!";
+  }
+  if (minutes = 2) {
+    day = "Its Tuesday!";
+  }  
+ 
+ 
+
+    
+    document.getElementById('day').innerText = "" + day;
+  
+  </script>
+  <br>
+  <a href="pages/monday.html">monday</a><br><br>
+  <a href="pages/tuesday.html">tuesday</a><br><br>
+  <a href="pages/wednesday.html">wednesday (No Minicourses)</a><br><br>
+  <a href="pages/minicoursewednesday.html">wednesday (Minicourses)</a><br><br>
+  <a href="pages/thursday.html">thursday</a><br><br>
+  <a href="pages/friday.html">friday</a><br><br>
+  <hr>
+  <h1>Half days:</h1> 
+  <a href="pages/halfmonday.html">monday</a><br><br>
+  <a href="pages/halftuesday.html">tuesday</a><br><br>
+  <a href="pages/halfwednesday.html">wednesday</a><br><br>
+  <a href="pages/halfthursday.html">thursday</a><br><br>
+  <a href="pages/halffriday.html">friday</a><br><br> 
+  <script src="script.js"></script>
+</body>
+
+</html>
