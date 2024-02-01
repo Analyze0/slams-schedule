@@ -14,7 +14,7 @@ function currentTime() {
     window.location.href = "https://slams-schedule.vercel.app/pages/tuesday.html";
   }//set to tuesday
 if(day == 3 && window.location.href != "https://slams-schedule.vercel.app/pages/wednesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfmonday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halftuesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfwednesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfthursday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halffriday.html"&& window.location.href != "https://slams-schedule.vercel.app/pages/minicoursewednesday.html"){
-    window.location.href = "https://slams-schedule.vercel.app/pages/wednesday.html";
+    window.location.href = "https://slams-schedule.vercel.app/pages/minicoursewednesday.html";
   }//set to wednesday
   if(day == 4 && window.location.href != "https://slams-schedule.vercel.app/pages/thursday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfmonday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halftuesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfwednesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfthursday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halffriday.html"&& window.location.href != "https://slams-schedule.vercel.app/pages/minicoursewednesday.html"){
     window.location.href = "https://slams-schedule.vercel.app/pages/thursday.html";
