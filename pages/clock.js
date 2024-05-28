@@ -7,20 +7,20 @@ function currentTime() {
   let mm = date.getMinutes();
   let day = date.getDay();
 
-  if(day == 1 && window.location.href != "/pages/monday.html" && window.location.href != "/pages/halfmonday.html" && window.location.href != "/pages/halftuesday.html" && window.location.href != "/pages/halfwednesday.html" && window.location.href != "/pages/halfthursday.html" && window.location.href != "/pages/halffriday.html" && window.location.href != "/pages/minicoursewednesday.html"){
-    window.location.href = "/pages/monday.html";
+  if(day == 1 && window.location.href != "https://slams-schedule.vercel.app/pages/monday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfmonday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halftuesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfwednesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfthursday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halffriday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/minicoursewednesday.html"){
+    window.location.href = "https://slams-schedule.vercel.app/pages/monday.html";
   }//set to monday
-  if(day == 2 && window.location.href != "/pages/tuesday.html" && window.location.href != "/pages/halfmonday.html" && window.location.href != "/pages/halftuesday.html" && window.location.href != "/pages/halfwednesday.html" && window.location.href != "/pages/halfthursday.html" && window.location.href != "/pages/halffriday.html"&& window.location.href != "/pages/minicoursewednesday.html"){
-    window.location.href = "/pages/tuesday.html";
+  if(day == 2 && window.location.href != "https://slams-schedule.vercel.app/pages/tuesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfmonday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halftuesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfwednesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfthursday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halffriday.html"&& window.location.href != "https://slams-schedule.vercel.app/pages/minicoursewednesday.html"){
+    window.location.href = "https://slams-schedule.vercel.app/pages/tuesday.html";
   }//set to tuesday
-if(day == 3 && window.location.href != "/pages/wednesday.html" && window.location.href != "/pages/halfmonday.html" && window.location.href != "/pages/halftuesday.html" && window.location.href != "/pages/halfwednesday.html" && window.location.href != "/pages/halfthursday.html" && window.location.href != "/pages/halffriday.html"&& window.location.href != "/pages/minicoursewednesday.html"){
-    window.location.href = "/pages/wednesday.html";
+if(day == 3 && window.location.href != "https://slams-schedule.vercel.app/pages/wednesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfmonday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halftuesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfwednesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfthursday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halffriday.html"&& window.location.href != "https://slams-schedule.vercel.app/pages/minicoursewednesday.html"){
+    window.location.href = "https://slams-schedule.vercel.app/pages/wednesday.html";
   }//set to wednesday
-  if(day == 4 && window.location.href != "/pages/thursday.html" && window.location.href != "/pages/halfmonday.html" && window.location.href != "/pages/halftuesday.html" && window.location.href != "/pages/halfwednesday.html" && window.location.href != "/pages/halfthursday.html" && window.location.href != "/pages/halffriday.html"&& window.location.href != "/pages/minicoursewednesday.html"){
-    window.location.href = "/pages/thursday.html";
+  if(day == 4 && window.location.href != "https://slams-schedule.vercel.app/pages/thursday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfmonday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halftuesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfwednesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfthursday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halffriday.html"&& window.location.href != "https://slams-schedule.vercel.app/pages/minicoursewednesday.html"){
+    window.location.href = "https://slams-schedule.vercel.app/pages/thursday.html";
   }//set to thursday
-  if(day == 5 && window.location.href != "/pages/friday.html" && window.location.href != "/pages/halfmonday.html" && window.location.href != "/pages/halftuesday.html" && window.location.href != "/pages/halfwednesday.html" && window.location.href != "/pages/halfthursday.html" && window.location.href != "/pages/halffriday.html"&& window.location.href != "/pages/minicoursewednesday.html"){
-    window.location.href = "/pages/friday.html";
+  if(day == 5 && window.location.href != "https://slams-schedule.vercel.app/pages/friday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfmonday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halftuesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfwednesday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halfthursday.html" && window.location.href != "https://slams-schedule.vercel.app/pages/halffriday.html"&& window.location.href != "https://slams-schedule.vercel.app/pages/minicoursewednesday.html"){
+    window.location.href = "https://slams-schedule.vercel.app/pages/friday.html";
   }//set to friday
   
    hh = (hh < 10) ? "0" + hh : hh;
@@ -40,7 +40,7 @@ if(day == 3 && window.location.href != "/pages/wednesday.html" && window.locatio
  
   milTime = parseInt((hh*100),10) + parseInt(mm,10);
   console.log(milTime);
-  if(window.location.href == "/pages/wednesday.html" || window.location.href == "/pages/monday.html" || window.location.href == "/pages/friday.html"){
+  if(window.location.href == "https://slams-schedule.vercel.app/pages/wednesday.html" || window.location.href == "https://slams-schedule.vercel.app/pages/monday.html" || window.location.href == "https://slams-schedule.vercel.app/pages/friday.html"){
     
     if(milTime > 814 && milTime < 845){
       document.getElementById('band').innerText = "Band: Rover";
@@ -88,7 +88,7 @@ if(day == 3 && window.location.href != "/pages/wednesday.html" && window.locatio
       document.getElementById('band').innerText = "Passing Period";
     }
   }//end of wednesday, monday, and friday
-  if(window.location.href == "/pages/thursday.html" || window.location.href == "/pages/tuesday.html"){
+  if(window.location.href == "https://slams-schedule.vercel.app/pages/thursday.html" || window.location.href == "https://slams-schedule.vercel.app/pages/tuesday.html"){
     
     if(milTime > 814 && milTime < 845){
       document.getElementById('band').innerText = "Band: Rover";
@@ -136,7 +136,7 @@ if(day == 3 && window.location.href != "/pages/wednesday.html" && window.locatio
       document.getElementById('band').innerText = "Passing Period";
     }
   }//end of thursday and tuesday
-  if(window.location.href == "/pages/minicoursewednesday.html"){
+  if(window.location.href == "https://slams-schedule.vercel.app/pages/minicoursewednesday.html"){
     
     if(milTime > 814 && milTime < 910){
       document.getElementById('band').innerText = "Band: Rover";
@@ -193,7 +193,7 @@ if(day == 3 && window.location.href != "/pages/wednesday.html" && window.locatio
   
   //HALF DAYS:
 
-  if(window.location.href == "/pages/halfmonday.html" || window.location.href == "/pages/halffriday.html" || window.location.href == "/pages/halfwednesday.html"){
+  if(window.location.href == "https://slams-schedule.vercel.app/pages/halfmonday.html" || window.location.href == "https://slams-schedule.vercel.app/pages/halffriday.html" || window.location.href == "https://slams-schedule.vercel.app/pages/halfwednesday.html"){
     
     if(milTime > 815 && milTime < 855){
       document.getElementById('band').innerText = "Band: A";
@@ -236,7 +236,7 @@ if(day == 3 && window.location.href != "/pages/wednesday.html" && window.locatio
     }
   }//end of half day monday, wednesday, and tuesday
 
-  if(window.location.href == "/pages/hafthursday.html" || window.location.href == "/pages/halftuesday.html"){
+  if(window.location.href == "https://slams-schedule.vercel.app/pages/hafthursday.html" || window.location.href == "https://slams-schedule.vercel.app/pages/halftuesday.html"){
     
     if(milTime > 815 && milTime < 855){
       document.getElementById('band').innerText = "Band: C";
